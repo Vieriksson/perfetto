@@ -1,0 +1,41 @@
+{
+  "name": "perfetto",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Vieriksson/perfetto.git",
+  "author": "Vieriksson <me@viktoreriksson.se>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "webpack-dev-server --hot --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/plugin-proposal-class-properties": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/preset-react": "^7.0.0",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/react": "^16.8.4",
+    "@types/react-dom": "^16.8.2",
+    "babel-loader": "^8.0.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prettier": "^1.16.4",
+    "typescript": "^3.3.3",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.2.0",
+    "webpack-merge": "^4.2.1"
+  },
+  "dependencies": {
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "prettier": {
+    "printWidth": 100,
+    "singleQuote": true,
+    "semi": false,
+    "useTabs": false,
+    "tabWidth": 2,
+    "bracketSpacing": true,
+    "jsxBracketSameLine": false
+  }
+}

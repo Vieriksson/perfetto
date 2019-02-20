@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "es2017",
+    "lib": ["dom", "es2017"],
+    "jsx": "react",
+    "noEmit": true,
+    "moduleResolution": "node",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedParameters": true,
+    "noUnusedLocals": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "strictPropertyInitialization": false,
+    "allowSyntheticDefaultImports": true,
+    "strictNullChecks": false,
+    "esModuleInterop": true,
+    "typeRoots": ["node_modules/@types", "custom-typings"]
+  },
+  "exclude": ["node_modules", "build"]
+}
