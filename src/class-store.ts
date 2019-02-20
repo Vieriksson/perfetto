@@ -30,7 +30,7 @@ export function createClassStore<T>(classInstance: T): [ProviderType, () => T] {
 }
 
 function toStateObject(obj: any) {
-  return Reflect.ownKeys(obj).reduce((a: any, b) => {
+  return Object.keys(obj).reduce((a: any, b) => {
     a[b] = obj[b]
     return a
   }, {})
